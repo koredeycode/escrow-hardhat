@@ -1,15 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 if (!window.ethereum) {
   root.render(
     <React.StrictMode>
-      You need to install a browser wallet to build the escrow dapp
+      You need to use a browser with a web3 wallet installed.
     </React.StrictMode>
   );
 } else {

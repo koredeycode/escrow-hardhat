@@ -1,10 +1,13 @@
-body {
+.main {
   background-color: #eee;
   display: flex;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
-
-.contract, .existing-contracts {
+.account {
+  margin: 20px;
+}
+.contract,
+.existing-contracts {
   margin: 20px;
   display: inline-block;
   padding: 40px;
